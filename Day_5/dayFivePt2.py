@@ -95,4 +95,4 @@ def solve_puzzle(data):
 
 result = solve_puzzle(data)
 
-print(f"The sum of middle page numbers from correctly-ordered updates is: {result}")
+print(f"The sum of middle page numbers from correctly-ordered updates is: {result}") 

@@ -18,7 +18,7 @@ def parse_rules_and_updates(data):
     
     # Parse updates
     updates = [list(map(int, line.split(','))) for line in updates_section.splitlines()]
-    
+     
     return rules, updates
 
 def is_update_valid(update, rules):
