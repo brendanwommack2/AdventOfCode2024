@@ -91,7 +91,7 @@ def solve_puzzle(data):
 
             middle_numbers_sum += find_middle_number(update)
     
-    return middle_numbers_sum
+    return middle_numbers_sum 
 
 result = solve_puzzle(data)
 
